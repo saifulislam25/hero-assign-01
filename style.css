@@ -1,137 +1,242 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: inter, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: inter, sans-serif;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    background-color: #FFFFFF;
-    align-items: center;
-    padding: 20px 8%;
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  align-items: center;
+  padding: 20px 8%;
+}
+nav button {
+  padding: 10px 30px;
+  background-color: #1d4ed8;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+a {
+  text-decoration: none;
+  color: #575757;
+}
+.btext-color {
+  color: #afafaf;
+}
+header {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./assets/banner.jpg");
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
 
+.hero-content {
+  color: #ffffff;
+  text-align: center;
+  display: grid;
+  gap: 20px;
+  justify-items: center;
 }
-nav button{
-    padding: 10px 30px;
-    background-color: #1D4ED8;
-    color:#FFFFFF;
-    border-radius: 5px;
-    border: none;
-    font-weight: 600;
-    font-size: 16px;
+span {
+  font-size: 60px;
+  font-weight: 600;
+  font-family: inter, sans-serif;
+  font-style: italic;
 }
-ul{
-    display: flex;
-    list-style: none;
-    gap: 20px;
+.hero-content h1 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.2;
+  font-family: inter, sans-serif;
 }
-a{text-decoration: none;
-    color:#575757;
-
+.hero-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-family: inter, sans-serif;
+  max-width: 600px;
 }
-.btext-color{
-    color:#afafaf;
-}
-header{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./assets/banner.jpg');
-    height: 90vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display:grid;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.hero-content{
-    color:#FFFFFF;
-    text-align: center;
-    display:grid;
-    gap: 20px;
-    justify-items: center;
-    
-}
-span{font-size: 60px;
-    font-weight: 600;
-    font-family: inter, sans-serif;
-    font-style: italic;
-    
-}
-.hero-content h1{
-    font-size: 60px;
-    font-weight: 600;
-    line-height: 1.2;
-    font-family: inter, sans-serif;
-}
-.hero-content p{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    font-family: inter, sans-serif;
-    max-width: 600px;
-}
-.hero-content button{
-    padding: 15px 30px;
-    background-color: #1D4ED8;
-    color:#FFFFFF;
-    border-radius: 5px;
-    border: none;
-    font-weight: 600;
-    font-size: 24px;
-    margin-top: 300px;
-    
+.hero-content button {
+  padding: 15px 30px;
+  background-color: #1d4ed8;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 300px;
 }
 
 /* 2nd part */
 
-.card-container{
-    display:flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top:40px;
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
 }
 
-.card{
-    width:640px;
-    height: 460px;
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
-    margin: 20px;
+.card {
+  width: 640px;
+  height: 460px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  margin: 20px;
 }
 
-.card img{
-    width: 100%;
-    height: auto;
-    
+.card img {
+  width: 100%;
+  height: auto;
 }
-.card-content{
-    padding: 16px;
+.card-content {
+  padding: 16px;
 }
-.card-content p{
-    font-size: 12px;
-    font-weight: 600;
-    color: #2563EB;
-    line-height: 1.5;
-    margin-bottom: 10px;
+.card-content p {
+  font-size: 12px;
+  font-weight: 600;
+  color: #2563eb;
+  line-height: 1.5;
+  margin-bottom: 10px;
 }
-.card-content .tman{
-    font-size: 14px;
-    font-weight: 400;
-    color:#afafaf;
-    margin-top: 10px;
-    
+.card-content .tman {
+  font-size: 14px;
+  font-weight: 400;
+  color: #afafaf;
+  margin-top: 10px;
 }
-.meet h2{
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
-    font-size: 56px;
-    font-weight: 700;
+.meet h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  font-size: 56px;
+  font-weight: 700;
 }
-
 
 /* 3rd part */
 
+.pricing {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.price-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 20px;
+}
+.price-card-m {
+  width: 320px;
+  height: 444px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  padding: 30px;
+}
+
+.price-card ul {
+  text-align: left;
+  margin: 0 16px;
+}
+
+.price-card li::marker {
+  color: #2563eb;
+}
+.price-btn button {
+  background: transparent;
+  padding: 15px 100px;
+  border: 1px solid #2563eb;
+  color: black;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.price-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.plist ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #888888;
+}
+
+.standard {
+  color: #888888;
+  font-size: 13px;
+  line-height: 1.6;
+  font-weight: 600;
+}
+.person {
+  color: #888888;
+  font-size: 13px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+.taka {
+  font-size: 44px;
+  color: #0d1b2a;
+  font-weight: 800;
+}
+.get-pro button {
+  background-color: #2563eb;
+  padding: 15px 120px;
+  color: #afafaf;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  margin-left: 10px;
+}
+.pro {
+  background-color: #0d1b2a;
+}
+.t {
+  color: #ffffff;
+}
+.p {
+  color: #2563eb;
+}
+button.st {
+  color: #2563eb;
+}
+.secure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+.secure h2{
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.8;
+}
+.secure p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #888888;
+}
+
+
+/* Creative part */
