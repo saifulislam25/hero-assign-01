@@ -89,7 +89,7 @@ span{font-size: 60px;
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top:100px;
+    margin-top:40px;
 }
 
 .card{
@@ -124,10 +124,10 @@ span{font-size: 60px;
     margin-top: 10px;
     
 }
-.meet{
+.meet h2{
     display: flex;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: 80px;
     font-size: 56px;
     font-weight: 700;
 }
