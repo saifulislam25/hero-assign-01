@@ -269,3 +269,22 @@ button.st {
 }
 
 /* Footer */
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+  padding: 40px 8%;
+  background-color: #0D1B2A;
+ 
+}
+footer p{
+  color: #888888;
+}
+footer ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  color: #888888;
+}
