@@ -1,0 +1,1 @@
+Promt: Design a premium editorial AI conference website section with a white background, bold typography, and a clean 4-column alternating grid of conference photos and soft pastel gradient statistic cards and a modern luxury conference aesthetic.
